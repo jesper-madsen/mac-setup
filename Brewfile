@@ -12,9 +12,6 @@
 cask_args appdir: '/Applications'
 tap 'homebrew/core'
 tap 'caskroom/cask'
-tap 'homebrew/php'
-tap 'homebrew/dupes'
-tap 'homebrew/completions'
 
 brew 'wget'
 
@@ -25,27 +22,16 @@ brew 'wget'
 
 # Development
 cask 'java'
-cask 'virtualbox'
-cask 'vagrant'
-cask 'iterm2'
-cask 'phpstorm'
-cask 'sequel-pro'
-cask 'atom'
+cask 'visual-studio-code'
 cask 'postman'
 cask 'sourcetree'
 brew 'node'
-brew 'awscli'
 
 # Web Development
-brew 'php70-xdebug'
-brew 'composer'
-brew 'php-cs-fixer'
 brew 'yarn'
-cask 'medis'
 
 # Mobile dev
 cask 'android-studio'
-cask 'genymotion'
 cask 'fastlane'
 
 # command line
@@ -57,14 +43,12 @@ brew 'mas'
 # applications
 cask 'slack'
 cask 'vlc'
-cask 'clipmenu'
 cask 'skype'
 cask 'teamviewer'
 cask 'spotify'
 cask 'google-chrome'
 cask 'firefox'
 cask 'dropbox'
-cask 'filezilla'
 
 # quicklock plugins
 cask 'qlcolorcode'
@@ -91,6 +75,3 @@ cask 'font-roboto'
 # App Store applications
 mas 'Xcode', id: 497799835
 mas 'Wunderlist', id: 410628904
-mas 'vSSH', id: 583272886
-mas 'Promotee', id: 578071639
-mas 'PHP Runner', id: 686855602
