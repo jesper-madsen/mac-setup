@@ -30,10 +30,6 @@ brew 'node'
 # Web Development
 brew 'yarn'
 
-# Mobile dev
-cask 'android-studio'
-cask 'fastlane'
-
 # command line
 brew 'zsh'
 brew 'zsh-syntax-highlighting'
@@ -42,27 +38,10 @@ brew 'mas'
 
 # applications
 cask 'slack'
-cask 'vlc'
-cask 'skype'
 cask 'teamviewer'
 cask 'spotify'
 cask 'google-chrome'
-cask 'firefox'
 cask 'dropbox'
-
-# quicklock plugins
-cask 'qlcolorcode'
-cask 'qlstephen'
-cask 'qlmarkdown'
-cask 'quicklook-json'
-cask 'qlprettypatch'
-cask 'quicklook-csv'
-cask 'provisionql'
-cask 'quicklookapk'
-cask 'epubquicklook'
-cask 'betterzipql'
-cask 'webpquicklook'
-cask 'suspicious-package'
 
 # Fonts
 tap 'caskroom/fonts'
