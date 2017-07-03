@@ -22,12 +22,18 @@ brew 'wget'
 
 # Development
 cask 'java'
+cask 'virtualbox'
+cask 'vagrant'
+cask 'iterm2'
 cask 'visual-studio-code'
+cask 'sequel-pro'
 cask 'postman'
 cask 'sourcetree'
 brew 'node'
+brew 'awscli'
 
 # Web Development
+brew 'composer'
 brew 'yarn'
 
 # command line
@@ -50,7 +56,3 @@ cask 'font-fontawesome'
 cask 'font-open-sans'
 cask 'font-open-sans-condensed'
 cask 'font-roboto'
-
-# App Store applications
-mas 'Xcode', id: 497799835
-mas 'Wunderlist', id: 410628904
