@@ -6,7 +6,7 @@
 #  |____/|_|  \___| \_/\_/ |_| |_|_|\___|
 #
 #
-# Mads Møller
+# Jesper Madsen
 # type: brew bundle
 
 cask_args appdir: '/Applications'
@@ -31,6 +31,7 @@ cask 'postman'
 cask 'sourcetree'
 brew 'node'
 brew 'awscli'
+cask 'gitup'
 
 # Web Development
 brew 'composer'
@@ -44,15 +45,14 @@ brew 'mas'
 
 # applications
 cask 'slack'
+cask 'vlc'
 cask 'teamviewer'
 cask 'spotify'
 cask 'google-chrome'
 cask 'dropbox'
 
-# Fonts
-tap 'caskroom/fonts'
-cask 'font-devicons'
-cask 'font-fontawesome'
-cask 'font-open-sans'
-cask 'font-open-sans-condensed'
-cask 'font-roboto'
+# App Store applications
+mas 'Xcode', id: 497799835
+mas 'Trello', id: 1278508951
+mas 'GIPHY Capture', id: 668208984
+mas 'CopyClip', id: 595191960
