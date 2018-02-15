@@ -12,6 +12,7 @@
 cask_args appdir: '/Applications'
 tap 'homebrew/core'
 tap 'caskroom/cask'
+tap 'shopify/shopify'
 
 brew 'wget'
 
@@ -36,6 +37,7 @@ cask 'gitup'
 # Web Development
 brew 'composer'
 brew 'yarn'
+brew 'themekit' # shopify themekit
 
 # command line
 brew 'zsh'
