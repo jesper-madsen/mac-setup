@@ -22,14 +22,10 @@ brew 'wget'
 #  Casks
 
 # Development
-cask 'java'
-cask 'virtualbox'
-cask 'vagrant'
 cask 'iterm2'
 cask 'visual-studio-code'
-cask 'sequel-pro'
+cask 'tableplus'
 cask 'postman'
-cask 'sourcetree'
 brew 'node'
 brew 'awscli'
 cask 'gitup'
@@ -46,15 +42,7 @@ brew 'zsh-completions'
 brew 'mas'
 
 # applications
-cask 'slack'
-cask 'vlc'
-cask 'teamviewer'
 cask 'spotify'
-cask 'google-chrome'
-cask 'dropbox'
 
 # App Store applications
 mas 'Xcode', id: 497799835
-mas 'Trello', id: 1278508951
-mas 'GIPHY Capture', id: 668208984
-mas 'CopyClip', id: 595191960
