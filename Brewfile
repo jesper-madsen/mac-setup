@@ -27,13 +27,8 @@ cask 'visual-studio-code'
 cask 'tableplus'
 cask 'postman'
 brew 'node'
-brew 'awscli'
 cask 'gitup'
 
-# Web Development
-brew 'composer'
-brew 'yarn'
-brew 'themekit' # shopify themekit
 
 # command line
 brew 'zsh'
